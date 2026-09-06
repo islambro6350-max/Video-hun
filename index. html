@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO HUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🎬 VIDEO HUB</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Admin Login</a>
+        </nav>
+    </header>
+
+    <!-- Videos यहाँ दिखेंगे -->
+    <main id="videoContainer">
+        <p>लोड हो रहा है...</p>
+    </main>
+
+    <!-- Footer (भविष्य में Ads के लिए) -->
+    <footer>
+        <p>© 2026 VIDEO HUB | Ad Space Available</p>
+    </footer>
+
+    <!-- Config और Script -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
