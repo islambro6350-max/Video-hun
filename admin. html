@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - VIDEO HUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🔐 Admin Panel</h1>
+        <nav>
+            <a href="index.html">🏠 Home</a>
+            <button id="logoutBtn">🚪 Logout</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Add Video Form -->
+        <section id="addVideoSection">
+            <h2>➕ नया Video Add करें</h2>
+            <form id="videoForm">
+                <input type="text" id="videoTitle" placeholder="Video Title (जैसे: Funny Cat)" required>
+                <input type="text" id="flezenLink" placeholder="Flezen Share Link (जैसे: https://flezen.com/xyz)" required>
+                <input type="text" id="thumbnailUrl" placeholder="Thumbnail Image URL (Direct Link)">
+                <textarea id="videoDescription" placeholder="छोटी Description (Optional)"></textarea>
+                <button type="submit">➕ Video Add करें</button>
+            </form>
+        </section>
+
+        <!-- Videos List with Edit/Delete -->
+        <section id="manageVideosSection">
+            <h2>📋 आपके Videos</h2>
+            <div id="adminVideoContainer"></div>
+        </section>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
