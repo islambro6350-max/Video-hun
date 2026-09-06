@@ -1,0 +1,7 @@
+// 🔑 Supabase Configuration
+// ये VALUES बाद में Supabase से कॉपी करके यहाँ PASTE करेंगे।
+const SUPABASE_URL = 'YOUR_SUPABASE_URL';
+const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+
+// Supabase Client Initialize
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
